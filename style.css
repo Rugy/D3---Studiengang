@@ -1,0 +1,113 @@
+body {
+	margin: 0px;
+}
+
+#donutgif, #descriptiongif {
+	position: absolute;
+	display: none;
+}
+
+.donut, .description {
+	float: left;
+	position: relative;
+}
+
+.donut {
+	padding-right: 20px;
+	padding-top: 40px;
+}
+
+.tooltip {
+	position: absolute;
+}
+
+#tipTitel, #tipUntertitel, #tipText {
+	text-align: center;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#tipTitel, #tipUntertitel {
+	color: #009;
+}
+
+#tipText {
+	color: #999;
+	font-size: 14px;
+}
+
+.description {
+	font-family: Verdana;
+	text-align: center;
+	color: #19D;
+	width: 700px;
+}
+
+#untertitel {
+	margin: 0px;
+}
+
+#untertitelSpan {
+	color: #999;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+#descriptionText {
+	text-align: justify;
+	font-size: 12px;
+	border-bottom: 1px solid #EEF;
+	padding-bottom: 10px;
+}
+
+#descriptionText:empty {
+	border: none;
+	padding: none;
+}
+
+.modulTabelle {
+	font-size: 12px;
+}
+
+.modulTabelle .tableTitle {
+	margin: 5px 10px;
+	font-size: 15px;
+	background-color: #CCF;
+	border-radius: 20px;
+}
+
+.modulTabelle tr:hover {
+	background-color: #DDF;
+}
+
+.modulTabelle table td:nth-child(1){
+	text-align: left;
+}
+
+.modulTabelle table td:nth-child(2) {
+	text-align: left;
+}
+
+td, th {
+	padding: 5px 10px;
+}
+
+*:focus {
+	outline: none;
+}
+
+path, text {
+	transition: 1s;
+}
+
+#alertPopup {
+	position: absolute;
+	border: 2px #DDF solid;
+	border-radius: 10px;
+	width: 150px;
+	font-size: 15px;
+	text-align: center;
+	display: none;
+	background-color: #DDF;
+	color: #F22;
+}
